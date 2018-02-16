@@ -17,3 +17,23 @@ connection.connect(function(err) {
   console.log("connected as id " + connection.threadId + "\n");
   createProduct();
 });
+
+
+function updateAuction(){
+	console.log("Updating Auction...\n");
+	var query = connection.query(
+		"UPDATE auction SET ? WHERE ?",
+		[
+			{
+
+			},
+			{
+
+			},
+		],
+		function(err, res){
+			console.log(res.affectedRows + "Items updated!\n");
+
+		}
+		);
+}
