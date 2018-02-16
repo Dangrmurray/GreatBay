@@ -25,6 +25,10 @@ connection.connect(function(err) {
   createProduct();
 });
 
+<<<<<<< HEAD
+
+
+=======
 function createProduct() {
   console.log("Adding new item...");
   connection.query("INSERT INTO auction SET ?",
@@ -39,4 +43,24 @@ function createProduct() {
       console.log(res.affectedRows + " item added!\n");
     }
   );
+}
+>>>>>>> 1b3a5a3b1298beec3647e815637fe150e9a41377
+
+function updateAuction(){
+	console.log("Updating Auction...\n");
+	var query = connection.query(
+		"UPDATE auction SET ? WHERE ?",
+		[
+			{
+
+			},
+			{
+
+			},
+		],
+		function(err, res){
+			console.log(res.affectedRows + "Items updated!\n");
+
+		}
+		);
 }
