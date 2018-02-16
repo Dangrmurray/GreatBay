@@ -8,10 +8,9 @@ CREATE TABLE auction (
   id INT NOT NULL AUTO_INCREMENT,
   item VARCHAR(45) NOT NULL,
   catergory VARCHAR(45) NOT NULL,
-  starting_bid DECIMAL(100,2)
-  current_bid DECIMAL(100,2)
-  highest_bid DECIMAL(100,2)
-
+  starting_bid DECIMAL(100,2),
+  current_bid DECIMAL(100,2),
+  highest_bid DECIMAL(100,2),
   PRIMARY KEY (id)
 );
 
