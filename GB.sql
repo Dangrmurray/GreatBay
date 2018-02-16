@@ -19,7 +19,7 @@ INSERT INTO auction (item, catergory, starting_bid, current_bid, highest_bid)
 VALUES ("sweater", "clothing", 45.50);
 
 INSERT INTO auction (item, catergory, starting_bid, current_bid, highest_bid)
-VALUES ("morotcycle", "automotive" 4399.00, 120);
+VALUES ("morotcycle", "automotive" 4399.00);
 
 INSERT INTO auction (item, catergory, starting_bid, current_bid, highest_bid)
-VALUES ("iphone", "technology" 890.99, 75);
+VALUES ("iphone", "technology" 890.99);
